@@ -76,7 +76,7 @@ public class Tesis extends Escrito{
 		        this.getAutor(), 
 		        this.getPaginas(), 
 		        this.getIdea(),
-		        this.getArgumentos(),
+		        String.join(", ", this.getArgumentos()),
 		        this.getConclusion(),
 		        this.getReferencias());
 		}
