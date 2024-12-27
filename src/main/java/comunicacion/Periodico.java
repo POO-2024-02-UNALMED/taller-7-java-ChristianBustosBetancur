@@ -48,7 +48,7 @@ public class Periodico extends Escrito{
 	}
 
 
-	String interpretacion() {
+	public String interpretacion() {
 
 		return interpretacion;
 	}
