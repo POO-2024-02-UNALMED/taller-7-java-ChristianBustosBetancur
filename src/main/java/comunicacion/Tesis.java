@@ -31,9 +31,9 @@ public class Tesis extends Escrito{
 	}
 	
 	
-	public int getArgumentos() {
-		return argumentos.length;
-	}
+	public String[] getArgumentos() {
+        return argumentos;
+    }
 	public void setArgumentos(String[] argumentos) {
 		this.argumentos = argumentos;
 	}
@@ -52,14 +52,12 @@ public class Tesis extends Escrito{
 		this.referencias = referencias;
 	}
 	
-	public String getInterpretacion() {
-		return interpretacion;
-	}
+
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
 	}
 	
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 	    return this.getPaginas() * palabrasPagina * 5;
 	}
 
